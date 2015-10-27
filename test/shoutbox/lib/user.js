@@ -82,6 +82,7 @@ User.authenticate = function(name, pass, fn){
   });
 };
 
+/*
 var tobi = new User({
     name: '1233',
     pass: 'test111',
@@ -90,4 +91,4 @@ var tobi = new User({
 tobi.save(function(err){
     if(err) throw err;
     console.log('user id %d', tobi.id);
-});
+});*/
